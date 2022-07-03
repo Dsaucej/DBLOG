@@ -1,0 +1,12 @@
+<html>
+    <body>
+        <div>
+            {% for video in youtubeapi %}
+                <p>
+                    <img src="{{ video.thumbnail }}" alt="{{ video.title }}" loading="lazy" />
+                    {{ video.title }} - {{ video.url }}
+                </p>
+            {% endfor %}
+        </div>
+    </body>
+</html>
