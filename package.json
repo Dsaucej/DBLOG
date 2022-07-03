@@ -19,6 +19,11 @@
   },
   "homepage": "https://github.com/kevin-powell/11ty-blog-site#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^0.12.1"
+    "@11ty/eleventy": "^1.0.1",
+    "@11ty/eleventy-cache-assets": "^2.3.0",
+    "axios": "^0.27.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.1"
   }
 }
